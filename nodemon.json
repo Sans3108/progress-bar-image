@@ -1,0 +1,6 @@
+{
+  "watch": ["dist/**/*"],
+  "ext": "json js",
+  "exec": "clear && node dist/index.js",
+  "delay": 100
+}
