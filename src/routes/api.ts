@@ -11,7 +11,6 @@ router.get('/', (req, res) => {
 });
 
 router.get('/bar', (req, res) => {
-
   const currentTime = getParam(req.query.c, 30); // Current time
   const totalTime = getParam(req.query.t, 60); // Total time
   const isCurrent = getParam(req.query.s, true); // Is it the current song?
@@ -55,7 +54,6 @@ router.get('/bar', (req, res) => {
 });
 
 export default router;
-
 
 /*
 
